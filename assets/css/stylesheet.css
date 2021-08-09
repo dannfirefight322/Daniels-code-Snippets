@@ -12,6 +12,7 @@ body{
 .header{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     font-size: 60px;
     font-family: var(--mainText);
     color: var(--yellow);
@@ -20,6 +21,7 @@ body{
 }
 .H-links{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .Hm-links{
@@ -40,9 +42,12 @@ body{
 }
 .iMain{
     border: solid;
+    border-radius: 7px;
     text-align: center;
     width: 500px;
     font-family: var(--mainText);
+    background-image: var(--gradiant);
+    color:var(--yellow);
     font-size: 20px;
 }
 .container{
