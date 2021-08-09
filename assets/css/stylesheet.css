@@ -23,6 +23,7 @@ header{
     font-family: var(--mainText);
     font-weight: bold;
     font-size: 30px;
+    padding-bottom: 20px;;
 } 
 
 .index{
@@ -30,10 +31,44 @@ header{
     justify-content: center;
 }
 .iMain{
-    display: flex;
     border: solid;
     text-align: center;
     width: 500px;
     font-family: var(--mainText);
     font-size: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    border: solid;
+    height:300px;
+    width:350px;
+    border-radius: 7px;
+    margin: 25px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 35px;
+    top: -20px;
+    border: solid;
+    height: 50px;
+    width: 275px;
+    background-color: white;
+    font-size: 20px;
+    font-family: var(--mainText);
+    border-radius: 7px;
+}
+.codeBlock{
+    position: relative;
+    left: 2px;
+    border: solid;
+    width: 340px;
+    height: 165px;
+    border-radius: 7px;
 }
