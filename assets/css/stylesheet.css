@@ -1,15 +1,22 @@
 :root{
     --mainText:'Oswald', sans-serif;
+    --teal: #0CECDD;
+    --yellow: #FFF338;
+    --pink: #FF67E7;
+    --purple: #C400FF;
+    --gradiant: linear-gradient(to bottom right, var(--purple), var(--teal));
 }
 body{
-    background-color: aqua;
+    background-image: var(--gradiant);
 }
-header{
+.header{
     display: flex;
     justify-content: center;
     font-size: 60px;
     font-family: var(--mainText);
+    color: var(--yellow);
     font-weight: bolder;
+    text-decoration: none;
 }
 .H-links{
     display: flex;
@@ -21,6 +28,7 @@ header{
     padding-top: 50px;
     text-decoration: none;
     font-family: var(--mainText);
+    color: var(--yellow);
     font-weight: bold;
     font-size: 30px;
     padding-bottom: 20px;;
@@ -44,11 +52,14 @@ header{
     justify-content: center;
 }
 .box{
+    text-align: center;
     border: solid;
     height:332px;
     width:350px;
     border-radius: 7px;
     margin: 25px;
+    font-family: var(--mainText);
+    color: var(--yellow);
 }
 .title{
     display: flex;
@@ -59,9 +70,10 @@ header{
     border: solid;
     height: 50px;
     width: 275px;
-    background-color: white;
+    background-image: var(--gradiant);
     font-size: 20px;
     font-family: var(--mainText);
+    color: var(--yellow);
     border-radius: 7px;
 }
 .codeBlock{
@@ -71,4 +83,5 @@ header{
     width: 340px;
     height: 165px;
     border-radius: 7px;
+    background-image: var(--gradiant);
 }
